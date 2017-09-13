@@ -1,0 +1,48 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.background{
+  background-image:url(https://preview.ibb.co/iSFjiv/muse_drum_fan_show_light_3679_1920x1080.jpg) ;
+    background-size: cover;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .8rem;
+  transition: all .07s ease;
+  width: 12rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black; 
+}
+kbd {
+  display: block;
+  font-size: 2rem;
+}
+
+.playing{
+  transform :scale(1.1);
+  border-color:#fcea76;
+  box-shadow:0 0 1rem #2310d1d;
+}
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .rem;
+  color:#d3ce98;
+}
